@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(44, 241, 222);
+    
+}
+#location,
+#temperature{
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+}
+
+#temperature{
+    flex-direction: column;
+}
+
+
+#description{
+    display: flex;
+    flex-direction: column;
+text-align: center;
+
+}
+.hiddenClass{
+    display: none;
+}
+.showClass{
+    display: block;
+}
